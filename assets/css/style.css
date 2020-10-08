@@ -142,7 +142,18 @@ font-family: 'Oswald', sans-serif;
 .contact{
   padding-top: 50px;
 }
+.icon{
+  margin:20px 10px;
 
+}
+@media (min-width: 576px) {
+
+  .icon{
+    margin:20px 10px;
+
+}
+
+}
 .icons{
   background-color: green;
 }
