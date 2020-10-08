@@ -1,0 +1,144 @@
+body{
+margin:0;
+padding: 0;
+border:0;
+font-family: 'Open Sans', sans-serif;
+
+
+
+}
+
+ /*navbar*/
+.bg-green{
+  background-color: green;
+  padding: 15px;
+}
+
+.head{
+    background-image: url(../img/esteban1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: white;
+      text-align: center;
+      height: 700px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      padding-bottom: 60px;
+
+}
+
+.subtitle h1{
+  font-size:50px;
+}
+.head hr {
+    max-width: 180px;
+    background-color: white;
+    border: 1px solid  white;
+}
+/*descripcion*/
+.description {
+    padding-top: 60px;
+    padding-bottom: 35px;
+
+}
+
+.description h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    color:secondary;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.description p {
+    font-weight: 400;
+    line-height: 2;
+}
+hr{
+  width: 200px;
+  border:1px solid black;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+  .hr_expe{
+    width: 200px;
+    border:1px solid white;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+
+.carousel-indicators {
+  top: 100px;
+}
+
+.carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: green;
+
+}
+
+@media (min-width: 320px) {
+  .carousel-indicators {
+    margin-top: 300px;
+  }
+}
+
+@media (min-width: 576px) {
+  .carousel-indicators {
+    margin-top: 300px;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .carousel-indicators {
+    margin-top: 100px;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: 700;
+    text-align: center;
+font-family: 'Oswald', sans-serif;
+}
+
+
+.working{
+  background-color: green;
+}
+.cui-embed{
+  border:1px solid grey;
+  margin: 20px auto;
+}
+.experience  {
+  padding-top:50px;
+}
+@media (min-width: 320px) {
+
+  h2 {
+      font-size: 40px;
+      margin-top: 20px;
+      font-weight: 700;
+      text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+  }
+.working{
+  padding-top:50px;
+}
+
+.contact{
+  padding-top: 50px;
+}
