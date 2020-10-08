@@ -146,14 +146,7 @@ font-family: 'Oswald', sans-serif;
   margin:20px 10px;
 
 }
-@media (min-width: 576px) {
 
-  .icon{
-    margin:20px 10px;
-
-}
-
-}
 .icons{
   background-color: green;
 }
